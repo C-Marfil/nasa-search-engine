@@ -1,18 +1,18 @@
 .search-box {
-    border-radius: 5px;
-    opacity:0.6;
-    cursor:crosshair;
+  border-radius: 5px;
+  opacity:0.6;
+  cursor:crosshair;
 }
 
 .button {
-    background-color: red;
-    border-radius: 5px;
-    color:white;
-    font-weight: 900;
-    width: 35px;
+  background-color: red;
+  border-radius: 5px;
+  color:white;
+  font-weight: 900;
+  width: 35px;
 }
 
 .form {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
