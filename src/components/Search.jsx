@@ -1,13 +1,15 @@
 import React, { useState } from "react";
+// eslint-disable-next-line import/no-extraneous-dependencies
+import PropTypes from "prop-types";
 import getImages from "../requests/getImages";
 import "../styles/search.css";
 
-const Search = () => {
+const Search = ({ setSearchResults }) => {
   const [value, setValue] = useState();
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    getImages(value);
+    setSearchResults(getImages(value));
   };
 
   return (
@@ -23,6 +25,10 @@ const Search = () => {
       </button>
     </form>
   );
+};
+
+Search.propTypes = {
+  setSearchResults: PropTypes.func.isRequired,
 };
 
 export default Search;
