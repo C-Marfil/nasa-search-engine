@@ -11,3 +11,8 @@
     font-weight: 900;
     width: 35px;
 }
+
+.form {
+    display: flex;
+    flex-direction: row;
+}

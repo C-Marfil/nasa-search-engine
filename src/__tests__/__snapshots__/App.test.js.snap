@@ -10,17 +10,21 @@ exports[`App Snapshot Test 1`] = `
       class="nasa-logo"
       src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
     />
-    <input
-      class="search-box"
-      placeholder="Search here"
-      type="text"
-    />
-    <button
-      class="button"
-      type="submit"
+    <form
+      class="form"
     >
-      GO
-    </button>
+      <input
+        class="search-box"
+        placeholder="Search here"
+        type="text"
+      />
+      <button
+        class="button"
+        type="submit"
+      >
+        GO
+      </button>
+    </form>
   </div>
 </DocumentFragment>
 `;

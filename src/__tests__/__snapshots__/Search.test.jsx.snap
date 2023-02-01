@@ -2,16 +2,20 @@
 
 exports[`Search Snapshot Test 1`] = `
 <DocumentFragment>
-  <input
-    class="search-box"
-    placeholder="Search here"
-    type="text"
-  />
-  <button
-    class="button"
-    type="submit"
+  <form
+    class="form"
   >
-    GO
-  </button>
+    <input
+      class="search-box"
+      placeholder="Search here"
+      type="text"
+    />
+    <button
+      class="button"
+      type="submit"
+    >
+      GO
+    </button>
+  </form>
 </DocumentFragment>
 `;
