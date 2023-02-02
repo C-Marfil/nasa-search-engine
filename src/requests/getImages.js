@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-// eslint-disable-next-line import/no-extraneous-dependencies
 import axios from "axios";
 
 const getImages = (query) => {
