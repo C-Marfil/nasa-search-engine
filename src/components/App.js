@@ -8,12 +8,14 @@ const App = () => {
 
   return (
     <div className="app">
-      <img
-        src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
-        className="nasa-logo"
-        alt="NASA logo"
-      />
-      <Search setSearchResults={setSearchResults} />
+      <div className="header">
+        <img
+          src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
+          className="nasa-logo"
+          alt="NASA logo"
+        />
+        <Search setSearchResults={setSearchResults} />
+      </div>
       <SearchResults results={searchResults} />
     </div>
   );

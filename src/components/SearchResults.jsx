@@ -9,9 +9,15 @@ const SearchResults = ({ results }) => {
   return (
     <>
       <p>Search Results</p>
-      {results.map((e) => {
-        return <img key={e} src={e} alt="space-is-pretty" />;
-      })}
+      <div className="images-container">
+        {results.map((e) => {
+          return (
+            <a href={e} rel="noreferrer" target="_blank">
+              <img key={e} className="image " src={e} alt="space-is-pretty" />
+            </a>
+          );
+        })}
+      </div>
     </>
   );
 };
