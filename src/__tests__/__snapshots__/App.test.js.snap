@@ -25,6 +25,9 @@ exports[`App Snapshot Test 1`] = `
         GO
       </button>
     </form>
+    <p>
+      No Results
+    </p>
   </div>
 </DocumentFragment>
 `;

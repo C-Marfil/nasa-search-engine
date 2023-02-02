@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Results component Snapshot test 1`] = `
+<DocumentFragment>
+  <p>
+    Search Results
+  </p>
+  <img
+    alt="space -is-pretty"
+    src="http//1"
+  />
+  <img
+    alt="space -is-pretty"
+    src="http//2"
+  />
+</DocumentFragment>
+`;

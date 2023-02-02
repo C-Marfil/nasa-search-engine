@@ -1,13 +1,13 @@
 .search-box {
   border-radius: 5px;
-  opacity:0.6;
-  cursor:crosshair;
+  opacity: 0.6;
+  cursor: crosshair;
 }
 
 .button {
   background-color: red;
   border-radius: 5px;
-  color:white;
+  color: white;
   font-weight: 900;
   width: 35px;
 }
