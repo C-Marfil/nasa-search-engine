@@ -3,8 +3,7 @@ import SearchResults from "../components/SearchResults";
 
 describe("Search Results component", () => {
   const validProps = {
-    results: ["http//1", "http//2"],
-    length: 2,
+    results: ["http//1", "http//2u"],
   };
   it("Snapshot test", () => {
     const { asFragment } = render(

@@ -6,12 +6,12 @@ exports[`Search Results component Snapshot test 1`] = `
     Search Results
   </p>
   <img
-    alt="space -is-pretty"
+    alt="space-is-pretty"
     src="http//1"
   />
   <img
-    alt="space -is-pretty"
-    src="http//2"
+    alt="space-is-pretty"
+    src="http//2u"
   />
 </DocumentFragment>
 `;

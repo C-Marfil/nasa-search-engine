@@ -10,7 +10,7 @@ const SearchResults = ({ results }) => {
     <>
       <p>Search Results</p>
       {results.map((e) => {
-        return <img key={e} src={e} alt="space -is-pretty" />;
+        return <img key={e} src={e} alt="space-is-pretty" />;
       })}
     </>
   );
