@@ -1,15 +1,17 @@
 import React, { useState } from "react";
-// eslint-disable-next-line import/no-extraneous-dependencies
 import PropTypes from "prop-types";
+import { useNavigate } from "react-router-dom";
 import getImages from "../requests/getImages";
 import "../styles/search.css";
 
 const Search = ({ setSearchResults }) => {
   const [value, setValue] = useState();
+  const navigate = useNavigate();
 
   const handleSubmit = async (event) => {
     event.preventDefault();
     setSearchResults(await getImages(value));
+    navigate(`/${value}`);
   };
 
   return (
