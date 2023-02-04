@@ -33,7 +33,9 @@ const App = () => {
           <Route path="/" />
           <Route
             path="/:q"
-            element={<SearchResults results={searchResults} />}
+            element={
+              <SearchResults results={searchResults} setLevel={setLevel} />
+            }
           />
           <Route path="/:q/image-detail" element={<InspectImage />} />
         </Routes>

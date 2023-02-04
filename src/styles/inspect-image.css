@@ -1,0 +1,26 @@
+.inspected-elements {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 50vh;
+    margin-top: 44vh;
+}
+
+.inspected-image {
+    height: 65vh;
+    border-radius: 10px;
+
+}
+
+.back-button {
+    position: relative;
+    margin-top: 10px;
+    z-index: 1;
+    height: 40px;
+    width: 80px;
+    border-radius: 100px;
+    background-color: red;
+    color: white;
+    font-weight: 900;
+    width: 4.5vw;
+  }
