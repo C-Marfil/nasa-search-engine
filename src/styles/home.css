@@ -1,3 +1,8 @@
+.homediv {
+  display: flex;
+  flex-direction: column;
+}
+
 #pulse {
   padding-top: 70px;
 }
