@@ -15,7 +15,12 @@ const InspectImage = () => {
       <button className="back-button" type="button" onClick={handleBack}>
         BACK
       </button>
-      <img src={state.src} alt={q} className="inspected-image" />
+      <img
+        src={state.src}
+        alt={q}
+        className="inspected-image"
+        id="inspected-image"
+      />
     </div>
   );
 };

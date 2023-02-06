@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Snapshot Test 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bwzfXH lhcaPW moving-words"
+    direction="alternate-reverse"
+    type="pulse"
+  >
+    Welcome, use the Search Bar above to find any pictures held in the public NASA archives.
+  </div>
+</DocumentFragment>
+`;

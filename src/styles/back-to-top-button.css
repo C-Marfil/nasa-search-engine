@@ -11,3 +11,19 @@
   font-weight: 900;
   width: 4.5vw;
 }
+
+@media (max-width: 400px) {
+  .deep {
+    position: fixed;
+    margin-top: 10vh;
+    margin-left: 75vw;
+    z-index: 1;
+    height: 30px;
+    border-radius: 100px;
+    background-color: red;
+    color: white;
+    font-weight: 900;
+    width: 15vw;
+    height: 5vh;
+  }
+}

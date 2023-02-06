@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { throttle } from "lodash";
+import Home from "./Home";
 import Header from "./Header";
 import InspectImage from "./InspectImage";
 import SearchResults from "./SearchResults";
@@ -25,22 +26,24 @@ const App = () => {
   }, [level, handleScroll]);
 
   return (
-    <Router>
-      <div className="app">
-        {level === "shallow" && <Header setSearchResults={setSearchResults} />}
-        {level === "deep" && <BackToTopButton level={level} />}
-        <Routes>
-          <Route path="/" />
-          <Route
-            path="/:q"
-            element={
-              <SearchResults results={searchResults} setLevel={setLevel} />
-            }
-          />
-          <Route path="/:q/image-detail" element={<InspectImage />} />
-        </Routes>
-      </div>
-    </Router>
+    <div className="app">
+      {level === "shallow" && <Header setSearchResults={setSearchResults} />}
+      {level === "deep" && <BackToTopButton level={level} />}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route
+          path="/:q"
+          element={
+            <SearchResults
+              results={searchResults}
+              setLevel={setLevel}
+              level={level}
+            />
+          }
+        />
+        <Route path="/:q/image-detail" element={<InspectImage />} />
+      </Routes>
+    </div>
   );
 };
 

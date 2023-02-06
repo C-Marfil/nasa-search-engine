@@ -1,0 +1,31 @@
+#header {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 100vw;
+  height: 20vh;
+}
+
+@media (max-width: 400px) {
+    
+  #header {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100vw;
+    height: 20vh;
+  }
+
+  .nasa-logo {
+    margin-left: 100px;
+    margin-top: -60px;
+    margin-bottom: -10px;
+    background-color: white;
+  }
+}

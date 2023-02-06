@@ -1,0 +1,31 @@
+.lhcaPW {
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(231, 14, 14, 1) 43%,
+    rgba(231, 14, 14, 1) 56%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  border-radius: 300px;
+  padding-top: 40px;
+  text-align: center;
+  margin-top: 40vh;
+  height: 10vh;
+  width: 80vw;
+}
+
+@media (max-width: 400px) {
+  .lhcaPW {
+    color: white;
+    background: red;
+    border-radius: 300px;
+    padding-top: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin-top: 40vh;
+    height: 20vh;
+    width: 70vw;
+  }
+}

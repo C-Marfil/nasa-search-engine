@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# <div align="center"> NASA Photo Archive 🌍 </div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">**An exercise on React II 🚀 **</div>
 
-## Available Scripts
+## Objectives
 
-In the project directory, you can run:
+This project presents the opportunity to develop an app that gets images from a NASA API.
 
-### `npm start`
+![Snapshot](./src/images/snapshot.png)
+![Snapshot Mobile](./src/images/snapshot-mobile.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Planning & Development
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+For this project I've aimed to deliver a simple design that is responsive and efficient. In order to enhance user experience, I have included a Back To Top button and a route that allows you to expand the image without opening another tab.
 
-### `npm test`
+I have used the following:
+-Axios,
+-React Components,
+-External React Components (moving-text),
+-PropTypes,
+-Lodash (Throttle).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## React Router
 
-### `npm run build`
+This project allowed me to experiment with React Router. These are the Routes you can access through the app:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ### Home Path - "/",
+- ### Search Path - "/:q",
+  (Where q is the req param for the search).
+- ### Inspect Image Path - "/:q/image-detail".
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+I have really enjoyed playing with Links, and I love that you can store state within them for you to use in different ways. For example, it is the Link element wrapping the images that holds the state for "selectedImage" - that state is used by the Inspect Image component to render the Selected Image in "/:q/image-detail".
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Set Up
 
-### `npm run eject`
+In order to run this app in your machine follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Fork this project. Then clone the repo to your machine:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone git@github.com:[your-github-username]/react-tech-test
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Install the project's dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+3. To run the app in development mode in your http://localhost:3000 run
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Test Suites
 
-### Code Splitting
+To test the functionality and components of the app, I used React Test Library - I am still researching how to test Router/Routes/Links with React and will update the tests shortly.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This is the latest test result log:
 
-### Analyzing the Bundle Size
+<details>
+<summary>Tests</summary>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Tests](./src/images/test.png)
 
-### Making a Progressive Web App
+</details>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### TODO
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Researching how to test Router and its elements in React, updating the tests to be more thorough.
+- Implement images maintaining their default aspect ratio and orientation.
+- Ensuring the design is fully responsive across multiple devices.
+- Adding an error message onscreen if the choosen search term returns no results.

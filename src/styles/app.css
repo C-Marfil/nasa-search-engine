@@ -20,3 +20,12 @@
   width: 200px;
   margin-right: 100px;
 }
+
+@media (max-width: 400px) {
+  .nasa-logo {
+    height: 100px;
+    width: 200px;
+    padding-top: 50px;
+  }
+
+}

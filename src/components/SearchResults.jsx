@@ -3,14 +3,12 @@ import { useParams, Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import "../styles/search-results.css";
 
-const SearchResults = ({ results, setLevel }) => {
+const SearchResults = ({ results, setLevel, level }) => {
   const { q } = useParams();
 
-  if (!results.length) {
-    return <p>Search images by using the text field above</p>;
-  }
   return (
     <>
+      {level === "shallow" && <p>Search Results</p>}
       <div className="images-container">
         {results.map((e) => {
           return (
@@ -29,13 +27,10 @@ const SearchResults = ({ results, setLevel }) => {
     </>
   );
 };
-SearchResults.defaultProps = {
-  length: 0,
-};
 
 SearchResults.propTypes = {
   results: PropTypes.arrayOf(PropTypes.string).isRequired,
-  length: PropTypes.number,
+  level: PropTypes.string.isRequired,
   setLevel: PropTypes.func.isRequired,
 };
 
