@@ -1,6 +1,6 @@
 # <div align="center"> NASA Photo Archive 🌍 </div>
 
-<div align="center">**An exercise on React II 🚀 **</div>
+<div align="center">An exercise on React II 🚀</div>
 
 ## Objectives
 
