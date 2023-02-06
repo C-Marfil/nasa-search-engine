@@ -33,7 +33,9 @@ I have really enjoyed playing with Links, and I love that you can store state wi
 
 ## Set Up
 
-In order to run this app in your machine follow these steps:
+I've deployed the app with Vercel. You can find it here: https://nasa-image-search-cm.vercel.app/
+
+If you wish to run this app in your machine follow these steps:
 
 1. Fork this project. Then clone the repo to your machine:
 
