@@ -4,7 +4,7 @@
 }
 
 #pulse {
-  margin-top: 80vh;
+  margin-top: 70vh;
 }
 
 .lhcaPW {
@@ -17,7 +17,7 @@
     rgba(255, 255, 255, 1) 100%
   );
   border-radius: 300px;
-  padding-top: 40px;
+  padding-top: 100px;
   text-align: center;
   margin-top: 70vh;
   height: 10vh;
