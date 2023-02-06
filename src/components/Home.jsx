@@ -11,6 +11,7 @@ const Home = () => {
       delay="1s"
       direction="alternate-reverse"
       timing="ease"
+      id="pulse"
       iteration="infinite"
       fillMode="none"
     >
