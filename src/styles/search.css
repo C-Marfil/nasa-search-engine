@@ -10,9 +10,21 @@
   color: white;
   font-weight: 900;
   width: 35px;
+  
 }
 
 .form {
   display: flex;
   flex-direction: row;
+}
+
+@media (max-width: 400px) {
+.button {
+  margin-bottom: 30px;
+}
+
+.search-box {
+  margin-bottom: 30px;
+}
+
 }

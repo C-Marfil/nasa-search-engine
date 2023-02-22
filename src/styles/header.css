@@ -6,7 +6,7 @@
   justify-content: center;
   background-color: white;
   width: 4000px;
-  height: 148px;
+  height: 149px;
 }
 
 @media (max-width: 400px) {
@@ -18,8 +18,8 @@
     align-items: center;
     justify-content: center;
     background-color: white;
-    width: 100vw;
-    height: 20vh;
+    width: 400px;
+    height: 149px;
   }
 
   .nasa-logo {
