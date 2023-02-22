@@ -4,7 +4,7 @@ import "../styles/home.css";
 
 const Home = () => {
   return (
-    <div className="homediv">
+    <div className="home">
       <MovingComponent
         className="moving-words"
         type="pulse"

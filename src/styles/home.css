@@ -1,16 +1,18 @@
-.homediv {
+.home {
   display: flex;
   flex-direction: column;
 }
 
-#pulse {
+.lhcaPW {
+  height: 10vh;
+  width: 80vw;
   margin-top: 50vh;
   margin-bottom:50vh;
-  text-align: center;
   padding-top: 30px;
-}
-
-.lhcaPW {
+  padding-bottom: 30px;
+  padding-left: 90px;
+  padding-right: 90px;
+  text-align: center;
   color: white;
   background: linear-gradient(
     90deg,
@@ -20,9 +22,6 @@
     rgba(255, 255, 255, 1) 100%
   );
   border-radius: 300px;
-  text-align: center;
-  height: 10vh;
-  width: 80vw;
 }
 
 @media (max-width: 400px) {

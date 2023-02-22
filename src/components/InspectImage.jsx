@@ -12,15 +12,15 @@ const InspectImage = () => {
 
   return (
     <div className="inspected-elements">
-      <button className="back-button" type="button" onClick={handleBack}>
-        BACK
-      </button>
       <img
         src={state.src}
         alt={q}
         className="inspected-image"
         id="inspected-image"
       />
+      <button className="back-button" type="button" onClick={handleBack}>
+        BACK
+      </button>
     </div>
   );
 };

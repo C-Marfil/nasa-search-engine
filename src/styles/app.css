@@ -4,17 +4,6 @@
   align-items: center;
 }
 
-.header {
-  position: fixed;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-  width: 100vw;
-  height: 22vh;
-}
-
 .nasa-logo {
   height: 100px;
   width: 200px;
