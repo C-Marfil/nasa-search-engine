@@ -14,11 +14,11 @@ This project presents the opportunity to develop an app that gets images from a 
 For this project I've aimed to deliver a simple design that is responsive and efficient. In order to enhance user experience, I have included a Back To Top button and a route that allows you to expand the image without opening another tab.
 
 I have used the following:
--Axios,
--React Components,
--External React Components (moving-text),
--PropTypes,
--Lodash (Throttle).
+- Axios,
+- React Components,
+- External React Components (moving-text),
+- PropTypes,
+- Lodash (Throttle).
 
 ## React Router
 
@@ -73,4 +73,4 @@ This is the latest test result log:
 - Researching how to test Router and its elements in React, updating the tests to be more thorough.
 - Implement images maintaining their default aspect ratio and orientation.
 - Ensuring the design is fully responsive across multiple devices.
-- Adding an error message onscreen if the choosen search term returns no results.
+- Adding an error message onscreen if the chosen search term returns no results.
