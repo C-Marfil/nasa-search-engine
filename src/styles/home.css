@@ -5,13 +5,16 @@
   margin-bottom: 50vh;
 }
 
+.welcome-words {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
 .lhcaPW {
   height: 10vh;
   width: 80vw;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 90px;
-  padding-right: 90px;
   text-align: center;
   color: white;
   background: linear-gradient(

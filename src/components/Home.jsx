@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="home">
       <MovingComponent
-        className="moving-words"
+        className="welcome-words"
         type="pulse"
         duration="2000ms"
         delay="1s"
