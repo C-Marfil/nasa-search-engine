@@ -38,6 +38,7 @@ const App = () => {
               results={searchResults}
               setLevel={setLevel}
               level={level}
+              setSearchResults={setSearchResults}
             />
           }
         />
