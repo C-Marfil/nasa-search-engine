@@ -48,3 +48,35 @@
     margin-bottom: 0px;
   }
 }
+
+@media (max-height: 375px) {
+  .inspected-elements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40vh;
+    margin-top: 25vh;
+  }
+
+  .inspected-image {
+    width: 40vw;
+    max-height: 50vh;
+    border-radius: 10px;
+    margin-top: 250px;
+    margin-bottom: 100px;
+  }
+
+  .back-button {
+    position: relative;
+    width: 70px;
+    height: 30px;
+    margin-top: 120px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    z-index: 1;
+    border-radius: 100px;
+    background-color: red;
+    color: white;
+    font-weight: 900;
+  }
+}
