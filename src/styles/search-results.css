@@ -29,6 +29,7 @@ p {
 }
 
 .image {
+  object-fit: cover;
   width: 20vw;
   height: 27vh;
   border-radius: 15px;
@@ -49,6 +50,7 @@ p {
   }
 
   .image {
+    overflow: hidden;
     width: 80vw;
     height: 27vh;
     border-radius: 15px;
