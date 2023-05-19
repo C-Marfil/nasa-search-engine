@@ -28,6 +28,10 @@
 }
 
 @media (max-width: 400px) {
+  .welcome-words {
+    font-size: small;
+    text-align: center;
+  }
   .lhcaPW {
     color: white;
     background: red;
