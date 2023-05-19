@@ -32,12 +32,12 @@
     color: white;
     background: red;
     border-radius: 300px;
-    padding-top: 5px;
+    padding-top: 0px;
     padding-left: 50px;
     padding-right: 50px;
     text-align: center;
-    margin-top: 40vh;
-    height: 20vh;
+    margin-top: 1vh;
+    height: 10vh;
     width: 40vw;
   }
 }
