@@ -1,4 +1,4 @@
-import { React, render } from "@testing-library/react";
+import { React, render, act } from "@testing-library/react";
 import { BrowserRouter as Router } from "react-router-dom";
 import App from "../components/App";
 
@@ -10,10 +10,11 @@ describe("App", () => {
   });
 
   it("tests that elements are rendered", () => {
-    const { getByAltText } = render(<App />, { wrapper: Router });
-    const image = getByAltText("nasa-logo");
-
-    expect(image).toHaveAttribute(
+    act(() => {
+      const { getByAltText } = render(<App />, { wrapper: Router });
+      const image = getByAltText("nasa-logo");
+    });
+    expect(getByAltText("nasa-logo")).toHaveAttribute(
       "src",
       "https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
     );

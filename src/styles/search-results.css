@@ -50,7 +50,7 @@ p {
   }
 
   .image {
-    overflow: hidden;
+    object-fit: cover;
     width: 80vw;
     height: 27vh;
     border-radius: 15px;

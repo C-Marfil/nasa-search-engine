@@ -10,8 +10,13 @@ const Search = ({ setSearchResults }) => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    setSearchResults(await getImages(value));
-    navigate(`/${value}`);
+    const results = await getImages(value);
+    setSearchResults(results);
+    if (results.length >= 1) {
+      navigate(`/${value}`);
+    } else {
+      navigate("/try-again");
+    }
   };
 
   return (

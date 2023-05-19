@@ -34,11 +34,17 @@ exports[`App Snapshot Test 1`] = `
       </form>
     </div>
     <div
-      class="sc-bwzfXH lhcaPW moving-words"
-      direction="alternate-reverse"
-      type="pulse"
+      class="home"
     >
-      Welcome, use the Search Bar above to find any pictures held in the public NASA archives.
+      <div
+        class="sc-bwzfXH lhcaPW welcome-words"
+        direction="alternate-reverse"
+        id="pulse"
+        type="pulse"
+      >
+        Welcome, use the Search Bar above to find any pictures held in the public NASA archives.
+      </div>
+      <hr />
     </div>
   </div>
 </DocumentFragment>
